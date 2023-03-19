@@ -1,0 +1,31 @@
+{
+  "name": "weatherstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "bin": {
+    "weatherstack": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDefo25/weatherstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDefo25/weatherstack/issues"
+  },
+  "homepage": "https://github.com/DDefo25/weatherstack#readme",
+  "dependencies": {
+    "nodemon": "^2.0.21",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "eslint": "^8.36.0"
+  }
+}
